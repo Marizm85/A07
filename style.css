@@ -17,9 +17,9 @@ body {
 
 /* Outer red border container */
 .container {
-  max-width: 720px;
+  max-width: 650px; /* Smaller so it doesn't look oversized */
   margin: 2em auto;
-  border: 6px solid var(--border-color);
+  border: 3px solid var(--border-color); /* Thinner border */
   background-color: white;
   box-sizing: border-box;
 }
@@ -37,13 +37,14 @@ em.shadow {
 /* Header */
 header {
   background-color: #f6bb73;
-  border-bottom: 3px solid var(--border-color);
+  /* Removed bottom border */
   padding: 1.5em 30px 2em;
+  text-align: center; /* Center all header content */
 }
 
 header img {
-  float: left;
-  margin-right: 30px;
+  display: block;
+  margin: 0 auto 1em;
 }
 
 header h2 {
@@ -52,14 +53,12 @@ header h2 {
 }
 
 header h3 {
-  border-top: 3px solid var(--border-color);
-  padding-top: 1em;
+  padding-top: 0.5em;
   margin: 0;
 }
 
 /* Main content */
 main {
-  clear: left;
   padding: 0 30px;
 }
 
