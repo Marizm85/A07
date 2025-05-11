@@ -1,4 +1,4 @@
-
+\/* === FINAL A07 STYLE.CSS WITH FULL EXERCISE 5-2 STYLING === */
 
 :root {
   --main-color: #800000;
@@ -56,34 +56,15 @@ main {
   padding: 0 30px;
 }
 
-/* Speaker Heading with complete box structure and shadow */
-.speaker-box-shadow {
-  box-shadow: 5px 5px 8px var(--border-color);
-  display: flex;
-  justify-content: center;
-  margin-top: 1.5em;
-  background-color: #fff;
-}
-
-.speaker-heading-outer {
-  border: double 4px #555;
-  padding: 10px;
-  background-color: #fff;
-}
-
-.speaker-heading-container {
-  border: double 3px var(--border-color);
-  padding: 0.5em 1em;
-  background-color: #fff;
-  border-radius: 15px;
-}
-
-.speaker-heading {
+main h1 {
   font-size: 150%;
   color: var(--main-color);
-  margin: 0;
+  border: double 3px var(--border-color);
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px var(--border-color);
+  padding: 0.5em;
   text-align: center;
-  background-color: #fff;
+  margin-top: 1.5em;
 }
 
 main h2 {
