@@ -15,11 +15,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Outer red border container */
+/* Red border container */
 .container {
-  max-width: 650px; /* Smaller so it doesn't look oversized */
+  max-width: 650px;
   margin: 2em auto;
-  border: 3px solid var(--border-color); /* Thinner border */
+  border: 3px solid var(--border-color); /* Outer red border visible */
   background-color: white;
   box-sizing: border-box;
 }
@@ -37,9 +37,9 @@ em.shadow {
 /* Header */
 header {
   background-color: #f6bb73;
-  /* Removed bottom border */
   padding: 1.5em 30px 2em;
-  text-align: center; /* Center all header content */
+  text-align: center;
+  /* 🚫 No border-top or border-bottom here */
 }
 
 header img {
@@ -53,12 +53,14 @@ header h2 {
 }
 
 header h3 {
-  padding-top: 0.5em;
   margin: 0;
+  padding-top: 0.5em;
+  font-weight: normal;
 }
 
 /* Main content */
 main {
+  clear: left;
   padding: 0 30px;
 }
 
@@ -88,4 +90,5 @@ footer {
   border-top: 3px solid var(--border-color);
   padding: 1em 30px;
   font-size: 90%;
+  text-align: center;
 }
