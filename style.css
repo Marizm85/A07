@@ -1,0 +1,112 @@
+:root {
+  --main-color: #800000;
+  --border-color: #931420;
+}
+
+html {
+  background-color: #fffdfd;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 600px;
+  margin: 0 auto;
+  border: 3px solid var(--border-color);
+  padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: var(--border-color);
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-list li {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-list a {
+  display: block;
+  padding: 14px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav-list a:hover {
+  background-color: #6f1010;
+}
+
+/* Link effects */
+a:hover,
+a:focus {
+  font-style: italic;
+}
+
+em.shadow {
+  text-shadow: 1px 1px var(--main-color);
+}
+
+/* Header */
+header {
+  background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+  border-bottom: 3px solid var(--border-color);
+  padding: 1.5em 30px 2em;
+}
+
+header img {
+  float: left;
+  margin-right: 30px;
+}
+
+header h2 {
+  color: var(--main-color);
+}
+
+header h3 {
+  border-top: 3px solid var(--border-color);
+  padding-top: 1em;
+}
+
+/* Main content */
+main {
+  clear: left;
+  padding: 0 30px;
+}
+
+main h1 {
+  font-size: 150%;
+  border: double 4px var(--border-color);
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px var(--border-color);
+  padding: 0.5em;
+  text-align: center;
+}
+
+main h2 {
+  color: var(--main-color);
+  font-size: 130%;
+}
+
+main h3 {
+  font-size: 105%;
+}
+
+/* Footer */
+footer {
+  background-color: var(--border-color);
+  border-top: 3px solid var(--border-color);
+  padding: 1em 30px;
+  color: white;
+  font-size: 90%;
+}
