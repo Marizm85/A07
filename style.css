@@ -1,4 +1,3 @@
-/* === FINAL A07 STYLE.CSS WITH FULL EXERCISE 5-2 STYLING === */
 
 :root {
   --main-color: #800000;
@@ -59,12 +58,13 @@ main {
 main h1 {
   font-size: 150%;
   color: var(--main-color);
-  border: double 3px var(--border-color);
-  border-radius: 15px;
-  box-shadow: 5px 5px 8px var(--border-color);
-  padding: 0.5em;
+  border: 3px double var(--border-color);
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  padding: 0.6em 1em;
   text-align: center;
   margin-top: 1.5em;
+  background-color: white;
 }
 
 main h2 {
