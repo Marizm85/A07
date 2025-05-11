@@ -55,23 +55,28 @@ main {
   padding: 0 30px;
 }
 
-/* Speaker Heading with outer wrapper */
+/* Speaker Heading with outer and inner wrapper */
+.speaker-heading-outer {
+  border: double 3px #999;
+  padding: 1em;
+  background-color: #fff;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 1.5em;
+}
+
 .speaker-heading-container {
-  border: 1px solid #999;
+  border: double 3px var(--border-color);
   padding: 0.5em;
   display: flex;
   justify-content: center;
   background-color: #fff;
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
-  margin-top: 1.5em;
+  border-radius: 18px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
 }
 
 .speaker-heading {
   font-size: 150%;
   color: var(--main-color);
-  border: double 3px var(--border-color);
-  border-radius: 15px;
-  box-shadow: 4px 4px 4px #666;
   padding: 0.5em 1em;
   text-align: center;
   background-color: #fff;
